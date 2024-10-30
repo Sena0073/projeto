@@ -1,0 +1,341 @@
+/* Globais */
+body {
+    background-color: #f4f4f4;
+    color: rgb(0, 66, 28);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    margin: 0;
+
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.clr{
+    clear: both
+}
+
+/* Cabeçalho */
+#cab{
+    background-color: rgb(8, 167, 202);
+}
+
+#logo{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin: 5px 0px;
+}
+
+#logo img{
+    height: 65px;
+}
+
+
+#contactos{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    color: a4da22;
+    text-align: right;
+    padding-top: 25px;
+    
+}
+
+#contactos li{
+    display: inline;
+    padding-left: 20px;
+    list-style: none;
+    
+}
+
+/* Navbar */
+#navbar{
+    background-color: rgb(1, 34, 43);
+    color: white;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+   
+}
+
+#navbar a:hover{
+    color: greenyellow;
+    font-size: larger;
+}
+
+
+ a{
+    text-decoration: none;
+    color: rgb(3, 112, 49);
+    padding-right: 20px;
+   
+}
+
+a:hover{
+    color: rgb(0, 255, 64);
+    font-size: larger;
+}
+/* Destaque */
+#destaque{
+    background-image: url("../images/background.png");
+    text-align: center;
+    background-position: -100px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#destaque h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    text-shadow: 2px 2px rgb(1, 82, 1);
+}
+
+/* Principal */
+#principal{
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    box-sizing: border-box;
+}
+
+/* Sidebar */
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+    background-color: rgb(2, 48, 44) ;
+    color: white;
+}
+
+/* Rodapé */
+#footer{
+    background-color: rgb(4, 61, 68) ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media(max-width:600px){
+    #printicpal{
+        width: 100%;
+        float: none;
+
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+
+}
+
+/* Página Sobre Nós */
+
+/* Navbar Sobre Nós*/
+#navbarSobre{
+    background-color: rgb(2, 51, 58);
+    color: white;
+}
+
+#navbarSobre ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbarSobre li{
+    display: inline;
+}
+
+#navbarSobre a{
+    text-decoration: none;
+    color: white;
+    padding-right: 20px;
+   
+}
+
+#navbarSobre a:hover{
+    color: greenyellow;
+    font-size: larger;
+}
+
+#sidebarMissao{
+    float: right;
+    width: 30%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebartrabalho img{
+    height: 300px;
+}
+
+#sectionTrabalho{
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    
+}
+
+
+#sidebarHistoria{
+    float: left;
+    width: 30%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebarHistoria img{
+    height: 300px;
+}
+
+#sectionHistoria{
+    float: right;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebar img{
+    height: 300px;
+}
+
+#section{
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+
+/* servicos */
+#sidebarDashboard{
+    float: left;
+    width: 30%;
+    padding-right: 50px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebarDashboard img{
+    height: 300px;
+}
+
+#sectionDashboard{
+    float: right;
+    width: 70%;
+    padding-left: 30px;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+
+#sidebarDados{
+    float: right;
+    width: 30%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebarDados img{
+    height: 300px;
+}
+
+#sectionDados{
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    
+}
+
+#sidebarSuporte{
+    float: right;
+    width: 30%;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    color: white;
+}
+
+#sidebarSuporte img{
+    height: 300px;
+}
+
+#sectionSuporte{
+    float: left;
+    width: 70%;
+    padding-right: 30px;
+    padding-top: 90px;
+    box-sizing: border-box;
+    
+}
+
+
+.img1 {
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+/* Página Serviços */
+
+/* Destaque */
+#destaqueServicos{
+    background-image: url("../images/background.png");
+    text-align: center;
+    background-position: -100px;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+#destaqueServicos h1{
+    color: white;
+    font-size: 50px;
+    line-height: 1.6em;
+    padding-top: 30px;
+    text-shadow: 2px 2px rgb(1, 82, 1);
+}
