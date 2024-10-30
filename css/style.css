@@ -194,7 +194,7 @@ a:hover{
     height: 300px;
 }
 
-#sectionTrabalho{
+#sectiontrabalho{
     float: left;
     width: 70%;
     padding-right: 30px;
@@ -250,7 +250,7 @@ a:hover{
 
 
 /* servicos */
-#sidebarDashboard{
+#sidebarEntrega{
     float: left;
     width: 30%;
     padding-right: 50px;
@@ -258,11 +258,11 @@ a:hover{
     color: white;
 }
 
-#sidebarDashboard img{
+#sidebarEntrega img{
     height: 300px;
 }
 
-#sectionDashboard{
+#sectionEntrega{
     float: right;
     width: 70%;
     padding-left: 30px;
